@@ -1,0 +1,37 @@
+.div-bg-img-tree {
+  height: 600px;
+  width: auto;
+  background-image: url('tree.png');
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.div-bg-image {
+  height: 600px;
+  width: auto;
+  background-image: url('bg.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.div-bg-color {
+  height: 100px;
+  width: 200px;  
+  display: table-cell;
+  vertical-align: middle;
+  border-radius: 10px;
+  opacity: 0.9;
+  background-color: red;
+}
+
+div {
+  border: #eee solid 1px;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
