@@ -1,0 +1,12 @@
+* {
+  color: red;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: blue;
+  margin-left: 20px;
+}
