@@ -1,0 +1,44 @@
+p, div{
+  font-size: 10px;
+  padding: 2px;
+  margin: 5px;
+}
+
+/* div {
+ border: pink solid 1px;
+} */
+
+.both {
+  border: white solid 1px;
+}
+
+.bottom {
+  border-bottom: red solid 1px;
+  border-
+}
+
+.both-radius {
+  border: #eee solid 1px;
+  border-radius: 3px;
+}
+
+.left {
+  border-left: blue solid 3px;
+  background-color: lightslategrey;
+}
+
+.dotted {
+  border-style: dotted;
+}
+
+.dashed {
+  border-style: dashed;
+}
+
+.solid {
+  border-style: solid;
+}
+
+.double {
+  border-style: double;
+}
