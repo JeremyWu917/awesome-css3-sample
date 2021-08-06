@@ -1,0 +1,57 @@
+div {
+  margin: 2px;
+  padding: 2px;
+  border: #eee solid 1px 0.8;
+  border-radius: 5px;
+  text-align: center;
+  background-color: blueviolet;
+}
+
+hr {
+  border-bottom: #eee dotted 1px;
+  border-top: transparent;
+}
+
+.p1 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.p4 {
+  font-family: fantasy;
+}
+
+.normal {
+  font-style: normal;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.oblique {
+  font-style: oblique;
+}
+
+.normal-w {
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.normal-v {
+  font-variant: normal;
+}
+
+.small {
+  font-variant: small-caps;
+}
