@@ -1,0 +1,17 @@
+div {
+  margin: 20px;
+  background-color: #89ca7a;
+  border: #eee solid 1px 50%;
+  border-radius: 3px;
+  color: blue;
+  font-size: 10px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  width: 10%;
+  height: 200px;
+  opacity: .7;
+  outline: cadetblue outset 10px;
+}
