@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  margin: 5px;
+  padding: 5px;
+  border: #eee dotted 1px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  color: lightblue;
+  text-align: center;
+}
+
+img {
+  height: 100px;
+}
+
+p {
+  text-align: justify;
+  text-indent: 50px;
+  letter-spacing: 1px;
+  color: #eee;
+  margin: 2px;
+}
+
+a::before {
+  text-decoration: underline;
+  color: lightblue;
+}
+
+a:link a:visited a:hover {
+  color: pink;
+  background: transparent;
+  border-bottom: 1px solid #990b09;
+}
+
+.img-top {
+  vertical-align: top;
+}
+
+.img-middle {
+  vertical-align: middle;
+}
+
+.img-bottom {
+  vertical-align: bottom;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.div-vertial-align {
+  height: 380px;
+}
+
+.p-rtl {
+  direction: rtl;
+}
+
+.p-bidi {
+  unicode-bidi: bidi-override;
+}
+
+.p-overline {
+  text-decoration: overline;
+}
+
+.p-through {
+  text-decoration: line-through;
+}
+
+.p-underline {
+  text-decoration: underline;
+}
+
+.p-upper {
+  text-transform: uppercase;
+}
+
+.p-lower {
+  text-transform: lowercase;
+}
+
+.p-cap {
+  text-transform: capitalize;
+}
+
+.p-s1 {
+  text-shadow: 2px 2px;
+}
+
+.p-s2 {
+  text-shadow: 2px 2px red;
+}
+
+.p-s3 {
+  text-shadow: 2px 2px 5px red;
+}
