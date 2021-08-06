@@ -65,3 +65,12 @@ unicode-bidi|与 direction 属性一起使用，设置或返回是否应重写�
 vertical-align|指定文本的垂直对齐方式。
 white-space|指定如何处理元素内的空白。
 word-spacing|设置单词间距。
+## All CSS Font Props
+Property|Description
+-|-
+font|简写属性。在一条声明中设置所有字体属性。
+font-family|规定文本的字体系列（字体族）。
+font-size|规定文本的字体大小。
+font-style|规定文本的字体样式。
+font-variant|规定是否以小型大写字母的字体显示文本。
+font-weight|规定字体的粗细。
