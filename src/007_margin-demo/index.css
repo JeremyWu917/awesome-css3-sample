@@ -1,0 +1,27 @@
+div {
+  background-color: pink;
+  border: #eee solid 1px;
+  border-radius: 5px;
+  height: 100px;
+  width: 200px;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.outer {
+  margin: 70px;
+}
+
+hr {
+  margin-top: 20px;
+  border: dotted #eee 1px;
+  border-bottom: 0ch;
+}
+
+.inner {
+  padding: 70px;
+}
