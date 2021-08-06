@@ -1,0 +1,18 @@
+div {
+  margin: 2px;
+  background-color: cadetblue;
+  font-weight: bold;
+  text-align: center;
+  /* display: table-cell;
+  vertical-align: middle; */
+}
+
+.div-1 {
+  height: 200px;
+  width: 50%;
+}
+
+.div-2 {
+  height: 200px;
+  width: 500px;
+}
