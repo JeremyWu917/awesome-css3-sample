@@ -1,0 +1,71 @@
+div {
+  border: #eee solid 1px;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  min-height: 300px;
+}
+
+.left {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 30%;
+  height: 90%;
+  min-height: 200px;
+}
+
+.center {
+  position: absolute;
+  align-self: center;
+  top: 10px;
+  left: 190px;
+  width: 30%;
+  height: 90%;
+  min-height: 200px;
+}
+
+.right {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 30%;
+  height: 90%;
+  min-height: 200px;
+}
+
+.left-title, .center-title, .right-title {
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: blueviolet;
+  margin: 2px;
+}
+
+.div-room {
+  position: absolute;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  color: #eee;
+  height: 70%;
+  width: 90%;
+  margin: 5px 5px 5px 8px;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+button {
+  position: absolute;
+  bottom: 5px;
+  width: 97%;
+  margin: auto 10px 0 5px;
+  height: 30px;
+  background-color: saddlebrown;
+  border: none;
+  color: #eee;
+  font-size: 14px;
+}
