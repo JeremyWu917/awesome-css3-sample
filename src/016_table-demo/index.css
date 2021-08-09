@@ -1,0 +1,37 @@
+table, th, td {
+  border: 1px solid #eee;
+  text-align: center;
+  vertical-align: middle;
+  color: brown;
+}
+
+th, td {
+  padding: 2px;
+}
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+}
+
+th {
+  height: 40px;
+  font-size: 16px;
+  background-color: green;
+}
+
+tr:hover {
+  background-color: indigo;
+  cursor: pointer;
+}
+
+tr:nth-child(even) {
+  background-color: grey;
+}
+
+caption {
+  margin-top: 10px;
+  caption-side: bottom;
+  text-align: right;
+  color: #eee;
+}
