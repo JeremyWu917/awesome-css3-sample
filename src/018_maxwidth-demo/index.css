@@ -1,0 +1,12 @@
+div {
+  border: red solid 1px;
+  margin: auto;
+}
+
+div.ex1 {
+  width: 300px;
+}
+
+div.ex2 {
+  max-width: 300px;
+}
