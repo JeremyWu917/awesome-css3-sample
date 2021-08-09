@@ -1,0 +1,55 @@
+/* .div-all {
+  
+} */
+
+button {
+ background-color: #ba3537;
+ border: none;
+ margin: 0px 10px 10px 10px;
+ width: 90%;
+ height: 30px;
+ font-size: 14px;
+ color: #fdf5f9;
+ cursor: pointer;
+}
+
+button:hover {
+  background-color: red;
+}
+
+.div-delete, .div-hidden, .div-reset {
+  width: 30%;
+  border: #eee solid 1px;
+  text-align: center;
+  margin: 2px 5px;
+  border-radius: 5px;
+}
+
+.div-room {
+  margin: -80px 20px -65px 20px;
+  /* min-height: 200px; */
+  background-color: gray;
+  /* display: table-cell;
+  text-align: center;
+  vertical-align: middle; */
+}
+
+.p-title {
+  background-color: #f1f1f1;
+  width: auto;
+  display: inline-flex;
+  color: #ba3537;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.p-title-normal {
+  color: #ba3537;
+  font-weight: bold;
+  display: inline-flex;
+  letter-spacing: 1px;
+}
+
+.p-context {
+  font-size: 80px;
+}
