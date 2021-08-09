@@ -1,0 +1,12 @@
+div {
+  border: #eee solid 1px;
+  border-radius: 3px;
+  width: 900px;
+  height: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 5px;
+  word-spacing: 1px;
+  background: greenyellow;
+  color: blue;
+}
