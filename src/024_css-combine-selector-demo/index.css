@@ -1,0 +1,19 @@
+/* 后代选择器 */
+/* div p {
+  color: purple;
+} */
+
+/* 子选择器 */
+/* div > p {
+  color: purple;
+} */
+
+/* 相邻兄弟选择器 */
+/* div + p {
+  color: purple;
+} */
+
+/* 通用兄弟选择器 */
+div ~ p {
+  color: purple;
+}
