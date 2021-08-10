@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* 样式 */
+    * {
+      box-sizing: border-box;
+    }
+
+    .img-container {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+    }
+
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Here is some float images</h1>
+  <div class="clearfix">
+    <div class="img-container">
+      <img src="1.png" alt="flower" style="width: 100%;">
+    </div>
+    <div class="img-container">
+      <img src="2.png" alt="flower" style="width: 100%;">
+    </div>
+    <div class="img-container">
+      <img src="3.png" alt="flower" style="width: 100%;">
+    </div>
+  </div>
+</body>
+
+</html>
