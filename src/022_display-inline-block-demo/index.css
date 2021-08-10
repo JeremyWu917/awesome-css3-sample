@@ -1,0 +1,19 @@
+ul {
+  background-color: #333;
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+
+ul li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 15px;
+}
+
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
