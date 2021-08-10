@@ -1,0 +1,8 @@
+/* div 居中 */
+div {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  border: #eee dotted 1px;
+  text-align: center; /* 居中文本 */
+}
