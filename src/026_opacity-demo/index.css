@@ -1,0 +1,18 @@
+div {
+  border: #eee solid 1px;
+  height: 200;
+  width: 200;
+  background-color: blueviolet;
+  border-radius: 5px;
+  margin: auto;
+  padding: 70px 0;
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+div:hover {
+  opacity: 1;
+  cursor: pointer;
+}
