@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #navlist {
+      position: relative;
+    }
+
+    #navlist li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      position: absolute;
+      top: 0;
+    }
+
+    #navlist li,
+    #navlist a {
+      height: 44px;
+      display: block;
+    }
+
+    #home {
+      left: 0;
+      width: 43px;
+      background: url(navsprites.gif) 0 0;
+    }
+
+    #prev {
+      left: 45px;
+      width: 43px;
+      background: url(navsprites.gif) -45px 0;
+    }
+
+    #next {
+      left: 90px;
+      width: 43px;
+      background: url(navsprites.gif) -90px 0;
+    }
+
+    #home a:hover {
+      background: url(navsprites_hover.gif) 0 -45px;
+    }
+
+    #prev a:hover {
+      background: url(navsprites_hover.gif) -45px -45px;
+    }
+
+    #next a:hover {
+      background: url(navsprites_hover.gif) -90px -45px;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <ul id="navlist">
+    <li id="home"><a href="#home"></a></li>
+    <li id="prev"><a href="#prev"></a></li>
+    <li id="next"><a href="#next"></a></li>
+  </ul>
+</body>
+
+</html>

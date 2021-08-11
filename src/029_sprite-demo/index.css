@@ -1,0 +1,17 @@
+#home {
+  width: 46px;
+  height: 44px;
+  background: url(navsprites.gif) 1px 0;
+}
+
+#pre {
+  width: 43px;
+  height: 44px;
+  background: url(navsprites.gif) -45px 0;
+}
+
+#next {
+  width: 43px;
+  height: 44px;
+  background: url(navsprites.gif) -90px 0;
+}
