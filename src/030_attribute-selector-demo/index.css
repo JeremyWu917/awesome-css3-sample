@@ -1,0 +1,33 @@
+a {
+  text-decoration: none;
+  display: block;
+  margin: 10px 15px;
+}
+
+a[target] {
+  color: rebeccapurple;
+}
+
+[href="#news"] {
+  color: aqua;
+}
+
+[href~="#news"] {
+  color: yellow;
+}
+
+[href|="#news"] {
+  color: aqua;
+}
+
+[href^="#news"] {
+  color: red;
+}
+
+[href$="4"] {
+  color: pink;
+}
+
+[href*="e"] {
+  color: goldenrod;
+}
