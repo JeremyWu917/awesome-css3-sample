@@ -1,0 +1,20 @@
+div {
+  border: #eee dotted 1px;
+  border-radius: 5px;
+  width: 58%;
+}
+
+div hr {
+  border-style: none;
+  border-bottom: #eee dotted 1px;
+}
+
+div ol {
+  counter-reset: sec;
+  list-style-type: none;
+}
+
+div ol li::before {
+  counter-increment: sec;
+  content: counters(sec,'.') '-';
+}
