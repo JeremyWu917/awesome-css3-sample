@@ -1,0 +1,34 @@
+.div-example-1 {
+  background-image: url(flower.gif), url(paper.gif);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  /* background: url(flower.gif) right bottom no-repeat, url(paper.gif) left top repeat; */
+  padding: 20px;
+  margin: 20px;
+
+  background-size: 100px 80px;
+}
+
+div p {
+  color: blue;
+}
+
+ul li, ul p {
+  color: red;
+}
+
+.div1 {
+  border: 2px solid #eee;
+  height: 100px;
+  background: url(flower.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.div2 {
+  border: 2px solid #eee;
+  height: 700px;
+  background: url(flower.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
