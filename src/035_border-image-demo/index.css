@@ -1,0 +1,12 @@
+div {
+  border: 10px solid transparent;
+  padding: 15px;
+}
+
+.borderimg {
+  border-image: url(border.png) 30 round;
+}
+
+.imgstretch {
+  border-image: url(border.png) 30 stretch;
+}
