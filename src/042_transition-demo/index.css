@@ -1,0 +1,38 @@
+div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid purple;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+/* .text1 {
+  transition: width 2s, height 2s;
+}
+
+.text1:hover {
+  width: 300px;
+  height: 300px;
+  transition-delay: 1s;
+}
+
+#div1 {transition-timing-function: linear;}
+#div2 {transition-timing-function: ease;}
+#div3 {transition-timing-function: ease-in;}
+#div4 {transition-timing-function: ease-out;}
+#div5 {transition-timing-function: ease-in-out;}
+
+div:hover {
+  width: 300px;
+} */
+
+/* More Transition CSS */
+#more {
+  transition: width 2s, height 2s, transform 2s;
+}
+
+div:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
