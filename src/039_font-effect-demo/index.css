@@ -1,0 +1,19 @@
+p {
+  border: 1px solid #eee;
+  padding: 5px;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+p.text1 {
+  text-overflow: clip;
+}
+
+p.text2 {
+  text-overflow: ellipsis;
+}
+
+p.text2:hover {
+  overflow: visible;
+}
