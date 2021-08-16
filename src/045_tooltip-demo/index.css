@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+}
+
+/* Tooltip 容器 */
+.tooltip {
+  /* margin: 10px; */
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+/* Tooltip 文本 */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* 定位 */
+  position: absolute;
+  z-index: 1;
+  /* 1 右侧提示 */
+  /* top: -5px;
+  left: 105px; */
+
+  /* 2 左侧提示 */
+  /* top: -5px;
+  right: 105px; */
+
+  /* 3 上侧提示 */
+  /* bottom: 100%;
+  left: 50%;
+  margin-left: -60px; */
+
+  /* 4 下方提示 */
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+/* 鼠标悬停在工具提示容器上时,显示工具提示文本 */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
