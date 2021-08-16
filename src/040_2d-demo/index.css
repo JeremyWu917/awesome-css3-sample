@@ -1,0 +1,29 @@
+div {
+  border-radius: 4px;
+  width: 200px;
+  height: 100px;
+  background-color: purple;
+  border: 1px solid #eee;
+  display: inline-block;
+  margin-top: 100px;
+}
+
+.translate {
+  -ms-transform: translate(50px,100px); /* IE 9 */
+  transform: translate(50px,100px); /* 标准语法 */
+}
+
+.rotate {
+  -ms-transform: rotate(220deg); /* IE 9 */
+  transform: rotate(220deg); /* 标准语法 */
+}
+
+.scale {
+  -ms-transform: scale(0.5,0.5); /* IE 9 */
+  transform: scale(0.5,0.5); /* 标准语法 */
+}
+
+.skew {
+  -ms-transform: skew(20deg, 10deg); /* IE 9 */
+  transform: skew(20deg, 10deg); /* 标准语法 */
+}
