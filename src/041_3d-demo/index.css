@@ -1,0 +1,21 @@
+div {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  background-color: purple;
+  margin: 2px;
+}
+
+.rotateX {
+  transform: rotateX(150deg);
+}
+
+.rotateY {
+  transform: rotateY(130deg);
+}
+
+.rotateZ {
+  transform: rotateZ(90deg);
+}
+
