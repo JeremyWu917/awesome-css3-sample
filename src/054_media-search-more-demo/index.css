@@ -1,0 +1,46 @@
+/* 默认背景色为 violet */
+body {
+  background-color: violet;
+}
+
+/* 屏幕/视口宽度大于等于 480px 时 背景显示为 purple */
+@media screen and (min-width: 480px) {
+  body {
+    background-color: purple;
+  }
+}
+
+.wrapper {
+  overflow: auto;
+}
+
+#main {
+  margin-left: 4px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 50px 10px;
+}
+
+#leftsidebar {
+  float: none;
+  width: auto;
+}
+
+#menulist {
+  margin: 0;
+  padding: 0;
+}
+
+.menuitem {
+  background: #CDF0F6;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  list-style-type: none;
+  margin: 4px;
+  padding: 2px;
+}
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
