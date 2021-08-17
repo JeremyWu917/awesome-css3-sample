@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    hr {
+      border: none;
+      border-bottom: 1px dotted #eee;
+      margin: 5px 0;
+    }
+
+    .flex-container {
+      display: flex;
+      background-color: purple;
+    }
+
+    .flex-container>div {
+      background-color: #f1f1f1;
+      margin: 10px;
+      padding: 20px;
+      font-size: large;
+      color: blue;
+    }
+
+    .flex-direction-column {
+      display: flex;
+      background-color: purple;
+      flex-direction: column;
+    }
+
+    .flex-direction-column>div {
+      background-color: #f1f1f1;
+      width: 100px;
+      margin: 10px;
+      padding: 20px;
+      font-size: large;
+      color: blue;
+    }
+
+    .flex-direction-row-reverse {
+      display: flex;
+      background-color: purple;
+      flex-direction: row-reverse;
+    }
+
+    .flex-direction-row-reverse>div {
+      background-color: #f1f1f1;
+      margin: 10px;
+      padding: 20px;
+      font-size: large;
+      color: blue;
+    }
+
+    .flex-wrap-container {
+      display: flex;
+      background-color: purple;
+      flex-wrap: wrap;
+
+      justify-content: center;
+    }
+
+    .flex-wrap-container>div {
+      background-color: #f1f1f1;
+      margin: 10px;
+      padding: 20px;
+      font-size: large;
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Flexbox 元素</h1>
+  <p>弹性布局中必须有一个 <em>display</em> 属性设置为 <em>flex</em> 的父元素。</p>
+  <p>弹性容器的直接子元素会自动成为弹性项目。</p>
+  <div class="flex-container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+  </div>
+  <hr>
+
+  <h1>Flex Direction - column</h1>
+  <div class="flex-direction-column">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+  </div>
+  <hr>
+
+  <h1>Flex Direction - row reverse</h1>
+  <div class="flex-direction-row-reverse">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+  </div>
+  <hr>
+
+  <h1>Flex Wrap</h1>
+  <div class="flex-wrap-container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+    <div>11</div>
+    <div>12</div>
+  </div>
+  <hr>
+
+</body>
+
+</html>
